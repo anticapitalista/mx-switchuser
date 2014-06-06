@@ -1,4 +1,1 @@
-mx-switchuser
-=============
-
-mx-switchuser
+Change users without logging out. (Xfce)
