@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# anticapitalista <antiX@operamail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: antix-development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-03 10:36+0300\n"
+"PO-Revision-Date: 2014-06-08 16:00+0000\n"
+"Last-Translator: anticapitalista <antiX@operamail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/antix-development/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mx-switchuser:6
+msgid "User Switching"
+msgstr "Εναλλαγή Χρηστών "
+
+#: mx-switchuser:7
+msgid ""
+"This tool allows you to switch to a different user without closing down your current session.\n"
+"\n"
+"To return to the original user, simply press Ctrl-Alt-F7. Go back again with Ctrl-Alt-F8.\n"
+"\n"
+"Do you want to switch to another user?"
+msgstr "Αυτό το εργαλείο σας επιτρέπει να μεταβείτε σε έναν άλλο χρήστη, χωρίς να κλείσει η τρέχουσα περίοδο λειτουργίας.\n\nΓια να επιστρέψετε στο αρχικό χρήστη, απλά πατήστε Ctrl-Alt-F7. Επιστρέψεsτε πάλι με Ctrl-Alt-F8. \n\nΜήπως θέλετε να μεταβείτε σε έναν άλλο χρήστη;"
