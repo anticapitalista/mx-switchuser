@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Translators:
 # Henry Oquist <henryoquist@comhem.se>, 2014
 msgid ""
@@ -9,16 +10,14 @@ msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-03 10:36+0300\n"
-"PO-Revision-Date: 2014-06-06 19:39+0200\n"
-"Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/antix-"
-"development/language/sv/)\n"
+"PO-Revision-Date: 2014-10-31 19:40+0000\n"
+"Last-Translator: Henry Oquist <henryoquist@comhem.se>\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/antix-development/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
 
 #: mx-switchuser:6
 msgid "User Switching"
@@ -26,18 +25,13 @@ msgstr "Användarbyte"
 
 #: mx-switchuser:7
 msgid ""
-"This tool allows you to switch to a different user without closing down your "
-"current session.\n"
+"This tool allows you to switch to a different user without closing down your current session.\n"
 "\n"
-"To return to the original user, simply press Ctrl-Alt-F7. Go back again with "
-"Ctrl-Alt-F8.\n"
+"To return to the original user, simply press Ctrl-Alt-F7. Go back again with Ctrl-Alt-F8.\n"
 "\n"
 "Do you want to switch to another user?"
-msgstr ""
-"Detta verktyg låter dig byta till en annan användare utan att stänga ner din "
-"nuvarande session.\n"
-"\n"
-"För att återvända till den ursprungliga användaren, tryck Ctrl-Alt-F7. Gå "
-"tillbaka igen med Ctrl-Alt-F8.\n"
-"\n"
-"Vill du byta till en annan användare?"
+msgstr "Detta verktyg låter dig byta till en annan användare utan att stänga ner din nuvarande session.\n\nFör att återvända till den ursprungliga användaren, tryck Ctrl-Alt-F7. Gå tillbaka igen med Ctrl-Alt-F8.\n\nVill du byta till en annan användare?"
+
+#: mx-switchuser:8
+msgid "Do not show this screen again"
+msgstr "Visa inte den här skärmen igen"
