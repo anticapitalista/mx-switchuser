@@ -1,0 +1,5 @@
+mx-switchuser.desktop   /usr/share/applications/mx
+changelog.gz            /usr/share/doc/switchuser-mx
+copyright               /usr/share/doc/switchuser-mx
+mx-switchuser           /usr/local/bin 
+locale/*                /usr/share/locale

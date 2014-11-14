@@ -1,0 +1,12 @@
+Source: switchuser-mx
+Section: system
+Priority: required
+Maintainer: anticapitalista <antiX@operamail.com>
+Build-Depends: debhelper (>= 9.20120115)
+Standards-Version: 3.9.4
+Homepage: http://antix.mepis.org
+
+Package: switchuser-mx
+Depends: yad, lightdm 
+Architecture: all
+Description: Tools to switch users without logging out.        
