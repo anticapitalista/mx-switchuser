@@ -4,26 +4,26 @@
 #
 # Translators:
 # Translators:
-# Roberto Saravia <jratlsv2@racsa.co.cr>, 2014
+# Eduard Selma <selma@tinet.cat>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-03 10:36+0300\n"
-"PO-Revision-Date: 2014-11-23 15:47+0200\n"
+"PO-Revision-Date: 2014-11-23 15:44+0200\n"
 "Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/antix-"
-"development/language/es/)\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/antix-"
+"development/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
+"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.6.10\n"
 
 #: mx-switchuser:6
 msgid "User Switching"
-msgstr "Cambio de Usuarios"
+msgstr "Commutador d'usuaris"
 
 #: mx-switchuser:7
 msgid ""
@@ -35,14 +35,14 @@ msgid ""
 "\n"
 "Do you want to switch to another user?"
 msgstr ""
-"Esta herramienta permite cambiar a un usuario diferente sin cerrar su sesión "
-"actual.\n"
+"Aquesta eina us permet canviar a un usuari diferent sense tancar la sessió "
+"actual\n"
 "\n"
-"Para regresar al usuario original, simplemente presione Ctrl-Alt-F7. Regrese "
-"de nuevo con Ctrl-Alt-F8.\n"
+"Per tornar a l'usuari actual, premeu senzillament Ctrl-Alt-F7. Torneu un "
+"altre cop amb Ctrl-Alt-F8.\n"
 "\n"
-"¿Desea cambiar a otro usuario?"
+"Voleu canviar a un altre usuari?"
 
 #: mx-switchuser:8
 msgid "Do not show this screen again"
-msgstr "No mostrar esta pantalla otra vez"
+msgstr "No torneu a mostrar aquesta pantalla "
