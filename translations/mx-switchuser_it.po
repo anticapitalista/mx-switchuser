@@ -4,25 +4,24 @@
 # 
 # Translators:
 # Translators:
-# Jerry Bond, 2014
-# WPSchulz <fly@wp-schulz.de>, 2015
+# Pierluigi Mario <pierluigimariomail@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-03 10:36+0300\n"
-"PO-Revision-Date: 2015-01-15 21:21+0000\n"
-"Last-Translator: WPSchulz <fly@wp-schulz.de>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/antix-development/language/de/)\n"
+"PO-Revision-Date: 2014-11-16 17:51+0000\n"
+"Last-Translator: Pierluigi Mario <pierluigimariomail@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/antix-development/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: mx-switchuser:6
 msgid "User Switching"
-msgstr "Benutzer wechseln"
+msgstr "Cambio Utente"
 
 #: mx-switchuser:7
 msgid ""
@@ -31,8 +30,8 @@ msgid ""
 "To return to the original user, simply press Ctrl-Alt-F7. Go back again with Ctrl-Alt-F8.\n"
 "\n"
 "Do you want to switch to another user?"
-msgstr "Dieses Werkzeug ermöglicht es, den Benutzer zu wechseln ohne sich auszuloggen. Drücken Sie Ctrl-Alt-F7, um zum ersten Benutzer zurückzukehren.  Ctrl-Alt-F8 bringt Sie wieder zum zweiten. Wollen Sie den Benutzer wechseln?"
+msgstr "Questo strumento ti permette di passare ad un utente differente senza chiudere la sessione corrente.\nPer tornare all'utente iniziale, digita semplicemente Ctrl-Alt-F7. Ti risposterai con Ctrl-Alt-F8.\nVuoi passare ad un altro utente?"
 
 #: mx-switchuser:8
 msgid "Do not show this screen again"
-msgstr "Diesen Bildschirm nicht mehr anzeigen"
+msgstr "Non mostrare più questo messaggio"
