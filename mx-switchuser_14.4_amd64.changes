@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 22 Apr 2015 15:46:01 -0700
+Source: mx-switchuser
+Binary: mx-switchuser
+Architecture: source all
+Version: 14.4
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Description: 
+ mx-switchuser - Tools to switch users without logging out.
+Changes: 
+ mx-switchuser (14.4) mx; urgency=medium
+ .
+   * Add Polish translation, update others.
+   * Add gettext to build-deps.
+   * Add po to mo conversion and cleaning to rules file.
+Checksums-Sha1: 
+ 12e7ec64bc9dfa6710aa058a0d0222d39f2bfe65 1020 mx-switchuser_14.4.dsc
+ ff3235cc7893790822d786c2fd5e02bef56076a3 6169 mx-switchuser_14.4.tar.gz
+ 8234e634c6ac44d09954f19c19e4fff1edb6f0e6 6152 mx-switchuser_14.4_all.deb
+Checksums-Sha256: 
+ 938b911ceb3e2c1abdeb51133186660b814e64e321886c26221b5f4650af5cd5 1020 mx-switchuser_14.4.dsc
+ acccdcfc1f5b1dbb3704809db08bde697604bbeb0ac5f4200cdce0bfeeb14cbc 6169 mx-switchuser_14.4.tar.gz
+ b99b2548e9208236c4b767399ec972c799ee4b07f49afc8f18bcf86258c87b15 6152 mx-switchuser_14.4_all.deb
+Files: 
+ bcbbdcbffd90838b41640be05c2a4eca 1020 system required mx-switchuser_14.4.dsc
+ d7dc4864f54572a9f659a759c51afac8 6169 system required mx-switchuser_14.4.tar.gz
+ 3fe8ab925025bed5c7b4f73578f196d8 6152 system required mx-switchuser_14.4_all.deb
+Original-Maintainer: anticapitalista <antiX@operamail.com>
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iJwEAQECAAYFAlU4KX4ACgkQ7hXrrckM4X5l8AQAqilqOjDiWDkzxoWvz8YZb1Wc
+XhNSrFW+mSymcxfOHtwWnWGh7AZtQPkB7WFuT/JG9VDVCF7spuVJwoRV1MLEdyKh
+M88wAJtMke35MOWU4pi1+Xf+w73Br2T8JCBiE4ecUhl9iAHtw0nDFio0q5DULyS7
+5EAlBMQV1PD7bIeMYf0=
+=lQAF
+-----END PGP SIGNATURE-----
