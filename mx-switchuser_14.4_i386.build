@@ -1,19 +1,19 @@
- dpkg-buildpackage -rfakeroot -D -us -uc -sa
+ dpkg-buildpackage -rfakeroot -D -us -uc
 dpkg-buildpackage: source package mx-switchuser
 dpkg-buildpackage: source version 14.4
 dpkg-buildpackage: source changed by Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
- dpkg-source --before-build mx-switchuser-master
-dpkg-buildpackage: host architecture amd64
+ dpkg-source --before-build build
+dpkg-buildpackage: host architecture i386
  fakeroot debian/rules clean
 dh clean 
    dh_testdir
    debian/rules override_dh_auto_clean
-make[1]: Entering directory `/home/steve/Desktop/mxswitch/new/mx-switchuser-master'
+make[1]: Entering directory `/home/adrian/build'
 rm -rf translations/build
 dh_auto_clean
-make[1]: Leaving directory `/home/steve/Desktop/mxswitch/new/mx-switchuser-master'
+make[1]: Leaving directory `/home/adrian/build'
    dh_clean
- dpkg-source -b mx-switchuser-master
+ dpkg-source -b build
 dpkg-source: info: using source format `3.0 (native)'
 dpkg-source: info: building mx-switchuser in mx-switchuser_14.4.tar.gz
 dpkg-source: info: building mx-switchuser in mx-switchuser_14.4.dsc
@@ -30,7 +30,7 @@ dh binary
    dh_installdirs
    dh_auto_install
    debian/rules override_dh_install
-make[1]: Entering directory `/home/steve/Desktop/mxswitch/new/mx-switchuser-master'
+make[1]: Entering directory `/home/adrian/build'
 mkdir -p translations/build
 msgfmt translations/mx-switchuser_ca.po -o translations/build/mx-switchuser_ca.mo
 msgfmt translations/mx-switchuser_de.po -o translations/build/mx-switchuser_de.mo
@@ -63,7 +63,7 @@ cp translations/build/mx-switchuser_nl.mo translations/build/nl/mx-switchuser.mo
 cp translations/build/mx-switchuser_pl.mo translations/build/pl/mx-switchuser.mo
 cp translations/build/mx-switchuser_sv.mo translations/build/sv/mx-switchuser.mo
 dh_install
-make[1]: Leaving directory `/home/steve/Desktop/mxswitch/new/mx-switchuser-master'
+make[1]: Leaving directory `/home/adrian/build'
    dh_installdocs
    dh_installchangelogs
    dh_installexamples
@@ -99,20 +99,26 @@ make[1]: Leaving directory `/home/steve/Desktop/mxswitch/new/mx-switchuser-maste
    dh_gencontrol
    dh_md5sums
    debian/rules override_dh_builddeb
-make[1]: Entering directory `/home/steve/Desktop/mxswitch/new/mx-switchuser-master'
+make[1]: Entering directory `/home/adrian/build'
 dh_builddeb -- -Z xz
 dpkg-deb: warning: 'debian/mx-switchuser/DEBIAN/control' contains user-defined field 'Original-Maintainer'
 dpkg-deb: warning: ignoring 1 warning about the control file(s)
 
 dpkg-deb: building package `mx-switchuser' in `../mx-switchuser_14.4_all.deb'.
-make[1]: Leaving directory `/home/steve/Desktop/mxswitch/new/mx-switchuser-master'
- dpkg-genchanges -sa >../mx-switchuser_14.4_amd64.changes
+make[1]: Leaving directory `/home/adrian/build'
+ dpkg-genchanges  >../mx-switchuser_14.4_i386.changes
 dpkg-genchanges: including full source code in upload
- dpkg-source --after-build mx-switchuser-master
+ dpkg-source --after-build build
 dpkg-buildpackage: full upload; Debian-native package (full source is included)
-Now signing changes and any dsc files...
- signfile mx-switchuser_14.4.dsc Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
-
- signfile mx-switchuser_14.4_amd64.changes Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
-
-Successfully signed dsc and changes files
+Now running lintian...
+E: mx-switchuser changes: bad-distribution-in-changes-file mx
+W: mx-switchuser source: debhelper-but-no-misc-depends mx-switchuser
+W: mx-switchuser source: package-needs-versioned-debhelper-build-depends 9
+W: mx-switchuser source: unknown-field-in-dsc original-maintainer
+W: mx-switchuser source: ancient-standards-version 3.9.4 (current is 3.9.6)
+E: mx-switchuser: extended-description-is-empty
+W: mx-switchuser: unknown-section system
+E: mx-switchuser: dir-in-usr-local usr/local/bin/
+E: mx-switchuser: file-in-usr-local usr/local/bin/mx-switchuser
+W: mx-switchuser: file-in-unusual-dir usr/local/bin/mx-switchuser
+Finished running lintian.
