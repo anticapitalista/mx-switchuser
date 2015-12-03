@@ -1,15 +1,17 @@
 [Desktop Entry]
 Name=MX Switch User
+Name[ca]=MX Switch User 
 Name[de]=MX Benutzerwechsel
 Name[el]=Αλλαγή χρήστη του MX
 Name[es]=Cambiar Usuario
 Name[fr]=Changer d'utilsateur
-Name[it]=Cambiare utente
+Name[it]=MX Cambia Utente
 Name[ja]=MX ユーザー切り替え
 Name[nl]=MX Wijzig Gebruiker
 Name[ru]=MX Переключение пользователей
 Name[sv]=MX Byt Användare
 Comment=Change users without logging out
+Comment[ca]=Canvia d'usuari sense sortir del Sistema 
 Comment[de]=ohne ausloggen den Benutzer wechseln
 Comment[el]=Αλλαγή χρηστών χωρίς αποσύνδεση
 Comment[es]=Cambiar Usuario sin finalizar la sesión
@@ -17,7 +19,7 @@ Comment[fr]=Changer d'utilisateur sans déconnecter
 Comment[it]=Cambiare utente senza disconnettersi
 Comment[ja]=ログアウトせずにユーザーを切り替え
 Comment[nl]=Wijzig gebruikers zonder uit te loggen
-Comment[ru]=Смена пользователей без их выхода из системы
+Comment[ru]=Переключение пользователей без выхода из системы
 Comment[sv]=Byt användare utan att logga ut
 Exec=mx-switchuser
 Icon=system-users
