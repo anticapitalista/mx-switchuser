@@ -1,5 +1,20 @@
+<<<<<<< HEAD
 mx-switchuser.desktop   /usr/share/applications/mx
 changelog.gz            /usr/share/doc/switchuser-mx
 copyright               /usr/share/doc/switchuser-mx
 mx-switchuser           /usr/local/bin 
 locale/*                /usr/share/locale
+=======
+mx-switchuser.desktop   usr/share/applications/mx
+mx-switchuser           usr/local/bin 
+translations/build/ca/mx-switchuser.mo     /usr/share/locale/ca/LC_MESSAGES
+translations/build/de/mx-switchuser.mo     /usr/share/locale/de/LC_MESSAGES
+translations/build/el/mx-switchuser.mo     /usr/share/locale/el/LC_MESSAGES
+translations/build/es/mx-switchuser.mo     /usr/share/locale/es/LC_MESSAGES
+translations/build/fr/mx-switchuser.mo     /usr/share/locale/fr/LC_MESSAGES
+translations/build/it/mx-switchuser.mo     /usr/share/locale/it/LC_MESSAGES
+translations/build/ja/mx-switchuser.mo     /usr/share/locale/ja/LC_MESSAGES
+translations/build/nl/mx-switchuser.mo     /usr/share/locale/nl/LC_MESSAGES
+translations/build/pl/mx-switchuser.mo     /usr/share/locale/pl/LC_MESSAGES
+translations/build/sv/mx-switchuser.mo     /usr/share/locale/sv/LC_MESSAGES
+>>>>>>> upstream/master

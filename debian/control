@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Source: switchuser-mx
 Section: system
 Priority: required
@@ -8,5 +9,21 @@ Homepage: http://antix.mepis.org
 
 Package: switchuser-mx
 Depends: yad, lightdm 
+=======
+Source: mx-switchuser
+Section: system
+Priority: required
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Bugs: mailto: maintainer@mepiscommunity.org
+XSBC-Original-Maintainer: anticapitalista <antiX@operamail.com>
+Build-Depends: debhelper (>= 7.0.50~), gettext
+Standards-Version: 3.9.4
+Homepage: http://antix.mepis.org
+
+Package: mx-switchuser
+Depends: yad, lightdm 
+Conflicts: switchuser-mx
+Replaces: switchuser-mx
+>>>>>>> upstream/master
 Architecture: all
 Description: Tools to switch users without logging out.        

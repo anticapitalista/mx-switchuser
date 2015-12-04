@@ -1,5 +1,6 @@
 #!/usr/bin/make -f
 
+<<<<<<< HEAD
 build:
 
 build-arch:
@@ -32,3 +33,54 @@ binary-indep: install
 binary: binary-indep binary-arch
 
 .PHONY: clean install binary-arch binary-indep binary
+=======
+%:
+	dh $@ 
+
+override_dh_usrlocal:
+
+override_dh_auto_clean:
+	rm -rf translations/build
+	dh_auto_clean
+
+override_dh_install:
+	mkdir -p translations/build
+	msgfmt translations/mx-switchuser_ca.po -o translations/build/mx-switchuser_ca.mo
+	msgfmt translations/mx-switchuser_de.po -o translations/build/mx-switchuser_de.mo
+	msgfmt translations/mx-switchuser_el.po -o translations/build/mx-switchuser_el.mo
+	msgfmt translations/mx-switchuser_es.po -o translations/build/mx-switchuser_es.mo
+	msgfmt translations/mx-switchuser_fr.po -o translations/build/mx-switchuser_fr.mo
+	msgfmt translations/mx-switchuser_it.po -o translations/build/mx-switchuser_it.mo
+	msgfmt translations/mx-switchuser_ja.po -o translations/build/mx-switchuser_ja.mo
+	msgfmt translations/mx-switchuser_nl.po -o translations/build/mx-switchuser_nl.mo
+	msgfmt translations/mx-switchuser_pl.po -o translations/build/mx-switchuser_pl.mo
+	msgfmt translations/mx-switchuser_sv.po -o translations/build/mx-switchuser_sv.mo
+
+
+	mkdir -p translations/build/ca
+	mkdir -p translations/build/de
+	mkdir -p translations/build/el
+	mkdir -p translations/build/es
+	mkdir -p translations/build/fr
+	mkdir -p translations/build/it
+	mkdir -p translations/build/ja
+	mkdir -p translations/build/nl
+	mkdir -p translations/build/pl
+	mkdir -p translations/build/sv
+
+	cp translations/build/mx-switchuser_ca.mo translations/build/ca/mx-switchuser.mo
+	cp translations/build/mx-switchuser_de.mo translations/build/de/mx-switchuser.mo
+	cp translations/build/mx-switchuser_el.mo translations/build/el/mx-switchuser.mo
+	cp translations/build/mx-switchuser_es.mo translations/build/es/mx-switchuser.mo
+	cp translations/build/mx-switchuser_fr.mo translations/build/fr/mx-switchuser.mo
+	cp translations/build/mx-switchuser_it.mo translations/build/it/mx-switchuser.mo
+	cp translations/build/mx-switchuser_ja.mo translations/build/ja/mx-switchuser.mo
+	cp translations/build/mx-switchuser_nl.mo translations/build/nl/mx-switchuser.mo
+	cp translations/build/mx-switchuser_pl.mo translations/build/pl/mx-switchuser.mo
+	cp translations/build/mx-switchuser_sv.mo translations/build/sv/mx-switchuser.mo
+
+	dh_install
+
+override_dh_builddeb:
+	dh_builddeb -- -Z xz
+>>>>>>> upstream/master

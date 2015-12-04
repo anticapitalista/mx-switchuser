@@ -1,9 +1,50 @@
+<<<<<<< HEAD
 switchuser-mx (0.1.2) unstable; urgency=low 
+=======
+mx-switchuser (14.4) mx; urgency=medium
+
+  * Add Polish translation, update others.
+  * Add gettext to build-deps.
+  * Add po to mo conversion and cleaning to rules file.
+
+ -- Steven Pusser (Stevo) <maintainer@mepiscommunity.org>  Wed, 22 Apr 2015 15:46:01 -0700
+
+mx-switchuser (0.1.2+2) mx; urgency=low
+
+  * Use Conflicts: instead of Breaks:
+  * Disable switchuser-mx dummy package.
+
+ -- Steven Pusser (Stevo) <maintainer@mepiscommunity.org>  Thu, 27 Nov 2014 18:15:55 -0800
+
+mx-switchuser (0.1.2+1) mx; urgency=low
+
+  * Fix transitional package from switchuser-mx to mx-switchuser
+
+ -- Timothy E. Harris <maintainer@mepiscommunity.org>  Mon, 24 Nov 2014 12:27:40 -0500
+
+mx-switchuser (0.1.2) unstable; urgency=low 
+>>>>>>> upstream/master
  
   * Translations - ca,it.
 
  -- anticapitalista <antiX@operamail.com>  Sun, 23 Nov 2014 15:50:00 +0200
 
+<<<<<<< HEAD
+=======
+mx-switchuser (0.1.1.1mx143+1) mx; urgency=low
+
+  * Add dummy switchuser-mx package to ease transition.
+
+ -- Steven Pusser (Stevo) <maintainer@mepiscommunity.org>  Sun, 16 Nov 2014 12:54:09 -0800
+
+mx-switchuser (0.1.1mx143+1) mx; urgency=low
+
+  * Package for MX 14:
+    - change package name to mx-switchuser.
+    - switch to tiny rules file, streamline install file.
+
+ -- Steven Pusser (Stevo) <maintainer@mepiscommunity.org>  Sat, 15 Nov 2014 14:07:27 -0800
+>>>>>>> upstream/master
 
 switchuser-mx (0.1.1) unstable; urgency=low 
  

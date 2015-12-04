@@ -10,11 +10,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2014-06-03 10:36+0300\n"
 "PO-Revision-Date: 2014-11-23 15:45+0200\n"
 "Last-Translator: anticapitalista <antiX@operamail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/antix-development/"
 "language/fr/)\n"
+=======
+"POT-Creation-Date: 2015-10-29 10:37-0400\n"
+"PO-Revision-Date: 2014-10-31 19:11+0000\n"
+"Last-Translator: Jerry Bond\n"
+"Language-Team: French (http://www.transifex.com/anticapitalista/antix-development/language/fr/)\n"
+>>>>>>> upstream/master
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +29,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.6.10\n"
 
-#: mx-switchuser:6
+#: mx-switchuser:7
 msgid "User Switching"
 msgstr "Changement d'utilisateur"
 
@@ -35,11 +42,17 @@ msgid ""
 "Ctrl-Alt-F8.\n"
 "\n"
 "Do you want to switch to another user?"
+<<<<<<< HEAD
 msgstr ""
 "Cet outil vous permet de changer d'utilsateur sans vous déconnecter. Pour "
 "revenir à l'utilisateur premier, pressez simplement Ctrl-Alt-F7. Revenir à "
 "nouveau avec Ctrl-Alt-F8. Voulez-vous changer d'utilisateur?"
 
 #: mx-switchuser:8
+=======
+msgstr "Cet outil vous permet de changer d'utilsateur sans vous déconnecter. Pour revenir à l'utilisateur premier, pressez simplement Ctrl-Alt-F7. Revenir à nouveau avec Ctrl-Alt-F8. Voulez-vous changer d'utilisateur?"
+
+#: mx-switchuser:11
+>>>>>>> upstream/master
 msgid "Do not show this screen again"
 msgstr "Ne plus afficher cet écran"

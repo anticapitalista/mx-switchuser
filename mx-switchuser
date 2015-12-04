@@ -8,7 +8,11 @@ if [ ! -e ~/.switchuser ] ; then
 
 To return to the original user, simply press Ctrl-Alt-F7. Go back again with Ctrl-Alt-F8.
 
+<<<<<<< HEAD
 Do you want to switch to another user?" --field $"Do not show this screen again":chk)
+=======
+Do you want to switch to another user?" --field=$"Do not show this screen again":chk)
+>>>>>>> upstream/master
   if [ $? -eq 0 ] ; then
     if [ $CHECKBOX == "TRUE|" ] ; then
       touch ~/.switchuser

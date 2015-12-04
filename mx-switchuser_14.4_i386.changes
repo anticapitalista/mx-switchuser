@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 22 Apr 2015 15:46:01 -0700
+Source: mx-switchuser
+Binary: mx-switchuser
+Architecture: source all
+Version: 14.4
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Description: 
+ mx-switchuser - Tools to switch users without logging out.
+Changes: 
+ mx-switchuser (14.4) mx; urgency=medium
+ .
+   * Add Polish translation, update others.
+   * Add gettext to build-deps.
+   * Add po to mo conversion and cleaning to rules file.
+Checksums-Sha1: 
+ bfd0e4d70edde16d8bb51d06cb4a0e6ff99d6fdb 656 mx-switchuser_14.4.dsc
+ b8592b14bd431ced2cbc0c280c08d98a2a83e5cc 6129 mx-switchuser_14.4.tar.gz
+ 931f2f04955fe15fc080bdcddea41acb60ffe056 6174 mx-switchuser_14.4_all.deb
+Checksums-Sha256: 
+ 6e22c971aa17b7f7372da84e9891057ef193caf2c82dee68fe49902d962a1608 656 mx-switchuser_14.4.dsc
+ ad14cf6340605f6be8450c13c8d2116f161f45e07d9acf5ebd84a707325fa2eb 6129 mx-switchuser_14.4.tar.gz
+ c7e7a6a33d3f09f25c8823bea410b3d8d4c5bbd80f64bd6c6d64088d93085e92 6174 mx-switchuser_14.4_all.deb
+Files: 
+ e14bce0109046c2ba17f8723df155074 656 system required mx-switchuser_14.4.dsc
+ 86ff1be1bd6115ef5d77eddbc68e270a 6129 system required mx-switchuser_14.4.tar.gz
+ b55b1053d46b687a8ec954c855a2b2dd 6174 system required mx-switchuser_14.4_all.deb
+Original-Maintainer: anticapitalista <antiX@operamail.com>
