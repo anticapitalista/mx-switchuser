@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-mx-switchuser.desktop   /usr/share/applications/mx
-changelog.gz            /usr/share/doc/switchuser-mx
-copyright               /usr/share/doc/switchuser-mx
-mx-switchuser           /usr/local/bin 
-locale/*                /usr/share/locale
-=======
 mx-switchuser.desktop   usr/share/applications/mx
 mx-switchuser           usr/local/bin 
 translations/build/ca/mx-switchuser.mo     /usr/share/locale/ca/LC_MESSAGES
@@ -17,4 +10,3 @@ translations/build/ja/mx-switchuser.mo     /usr/share/locale/ja/LC_MESSAGES
 translations/build/nl/mx-switchuser.mo     /usr/share/locale/nl/LC_MESSAGES
 translations/build/pl/mx-switchuser.mo     /usr/share/locale/pl/LC_MESSAGES
 translations/build/sv/mx-switchuser.mo     /usr/share/locale/sv/LC_MESSAGES
->>>>>>> upstream/master

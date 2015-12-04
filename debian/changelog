@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-switchuser-mx (0.1.2) unstable; urgency=low 
-=======
 mx-switchuser (14.4) mx; urgency=medium
 
   * Add Polish translation, update others.
@@ -23,14 +20,11 @@ mx-switchuser (0.1.2+1) mx; urgency=low
  -- Timothy E. Harris <maintainer@mepiscommunity.org>  Mon, 24 Nov 2014 12:27:40 -0500
 
 mx-switchuser (0.1.2) unstable; urgency=low 
->>>>>>> upstream/master
  
   * Translations - ca,it.
 
  -- anticapitalista <antiX@operamail.com>  Sun, 23 Nov 2014 15:50:00 +0200
 
-<<<<<<< HEAD
-=======
 mx-switchuser (0.1.1.1mx143+1) mx; urgency=low
 
   * Add dummy switchuser-mx package to ease transition.
@@ -44,7 +38,6 @@ mx-switchuser (0.1.1mx143+1) mx; urgency=low
     - switch to tiny rules file, streamline install file.
 
  -- Steven Pusser (Stevo) <maintainer@mepiscommunity.org>  Sat, 15 Nov 2014 14:07:27 -0800
->>>>>>> upstream/master
 
 switchuser-mx (0.1.1) unstable; urgency=low 
  

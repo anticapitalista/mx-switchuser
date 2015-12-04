@@ -1,67 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-<<<<<<< HEAD
-#
-# Translators:
-=======
 # 
->>>>>>> upstream/master
 # Translators:
 # Eduard Selma <selma@tinet.cat>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-06-03 10:36+0300\n"
-"PO-Revision-Date: 2014-11-23 15:44+0200\n"
-"Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Catalan (http://www.transifex.com/projects/p/antix-"
-"development/language/ca/)\n"
-=======
 "POT-Creation-Date: 2015-10-29 10:37-0400\n"
 "PO-Revision-Date: 2014-11-17 16:21+0000\n"
 "Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: Catalan (http://www.transifex.com/anticapitalista/antix-development/language/ca/)\n"
->>>>>>> upstream/master
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-<<<<<<< HEAD
-"X-Generator: Poedit 1.6.10\n"
-
-#: mx-switchuser:6
-=======
 
 #: mx-switchuser:7
->>>>>>> upstream/master
 msgid "User Switching"
 msgstr "Commutador d'usuaris"
 
 #: mx-switchuser:7
 msgid ""
-<<<<<<< HEAD
-"This tool allows you to switch to a different user without closing down your "
-"current session.\n"
-"\n"
-"To return to the original user, simply press Ctrl-Alt-F7. Go back again with "
-"Ctrl-Alt-F8.\n"
-"\n"
-"Do you want to switch to another user?"
-msgstr ""
-"Aquesta eina us permet canviar a un usuari diferent sense tancar la sessió "
-"actual\n"
-"\n"
-"Per tornar a l'usuari actual, premeu senzillament Ctrl-Alt-F7. Torneu un "
-"altre cop amb Ctrl-Alt-F8.\n"
-"\n"
-"Voleu canviar a un altre usuari?"
-
-#: mx-switchuser:8
-=======
 "This tool allows you to switch to a different user without closing down your current session.\n"
 "\n"
 "To return to the original user, simply press Ctrl-Alt-F7. Go back again with Ctrl-Alt-F8.\n"
@@ -70,6 +32,5 @@ msgstr ""
 msgstr "Aquesta eina us permet canviar a un usuari diferent sense tancar la sessió actual\n\nPer tornar a l'usuari actual, premeu senzillament Ctrl-Alt-F7. Torneu un altre cop amb Ctrl-Alt-F8.\n\nVoleu canviar a un altre usuari?"
 
 #: mx-switchuser:11
->>>>>>> upstream/master
 msgid "Do not show this screen again"
 msgstr "No torneu a mostrar aquesta pantalla "

@@ -3,33 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Translators:
 # BALLOON a.k.a. Fu-sen., 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-06-03 10:36+0300\n"
-"PO-Revision-Date: 2014-11-23 15:48+0200\n"
-"Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/antix-"
-"development/language/ja/)\n"
-=======
 "POT-Creation-Date: 2015-10-29 10:37-0400\n"
 "PO-Revision-Date: 2014-10-01 18:09+0000\n"
 "Last-Translator: BALLOON a.k.a. Fu-sen.\n"
 "Language-Team: Japanese (http://www.transifex.com/anticapitalista/antix-development/language/ja/)\n"
->>>>>>> upstream/master
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-<<<<<<< HEAD
-"X-Generator: Poedit 1.6.10\n"
-=======
->>>>>>> upstream/master
 
 #: mx-switchuser:7
 msgid "User Switching"
@@ -42,21 +29,8 @@ msgid ""
 "To return to the original user, simply press Ctrl-Alt-F7. Go back again with Ctrl-Alt-F8.\n"
 "\n"
 "Do you want to switch to another user?"
-<<<<<<< HEAD
-msgstr ""
-"このツールを使用して、現在のセッションを閉じずに別のユーザーへ切り替えること"
-"ができます。\n"
-"\n"
-"元のユーザーに戻すには、Ctrl+Alt+F7 キーを押します。Ctrl+Alt+F8 キーで再び戻"
-"る事ができます。\n"
-"\n"
-"別のユーザーへ切り替えを行いますか？"
-
-#: mx-switchuser:8
-=======
 msgstr "このツールを使用して、現在のセッションを閉じずに別のユーザーへ切り替えることができます。\n\n元のユーザーに戻すには、Ctrl+Alt+F7 キーを押します。Ctrl+Alt+F8 キーで再び戻る事ができます。\n\n別のユーザーへ切り替えを行いますか？"
 
 #: mx-switchuser:11
->>>>>>> upstream/master
 msgid "Do not show this screen again"
 msgstr "この画面を再度表示しない"
