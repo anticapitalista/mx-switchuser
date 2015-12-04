@@ -1,3 +1,9 @@
+mx-switchuser (14.4.1) mx; urgency=medium
+
+  * Translation changes to .desktop file
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 03 Dec 2015 14:25:00 +0200
+
 mx-switchuser (14.4) mx; urgency=medium
 
   * Add Polish translation, update others.
