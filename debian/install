@@ -1,4 +1,4 @@
-mx-switchuser.desktop   usr/share/applications/mx
+mx-switchuser.desktop   usr/share/applications
 mx-switchuser           usr/local/bin 
 translations/build/ca/mx-switchuser.mo     /usr/share/locale/ca/LC_MESSAGES
 translations/build/de/mx-switchuser.mo     /usr/share/locale/de/LC_MESSAGES
