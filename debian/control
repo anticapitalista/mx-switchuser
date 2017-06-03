@@ -1,7 +1,7 @@
 Source: mx-switchuser
 Section: system
 Priority: required
-Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Maintainer: Steven Pusser <stevep@mxlinux.org>
 Bugs: mailto: maintainer@mepiscommunity.org
 XSBC-Original-Maintainer: anticapitalista <antiX@operamail.com>
 Build-Depends: debhelper (>= 7.0.50~), gettext

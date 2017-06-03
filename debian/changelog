@@ -1,3 +1,9 @@
+mx-switchuser (17.6) mx; urgency=medium
+
+  * Updated translations.
+
+ -- Steven Pusser <stevep@mxlinux.org>  Fri, 02 Jun 2017 19:22:42 -0700
+
 mx-switchuser (17.5) mx; urgency=medium
 
   * update desktop file location
