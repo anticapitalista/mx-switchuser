@@ -1,3 +1,15 @@
+mx-switchuser (17.6) mx; urgency=medium
+
+  * Updated translations.
+
+ -- Steven Pusser <stevep@mxlinux.org>  Fri, 02 Jun 2017 19:22:42 -0700
+
+mx-switchuser (17.5) mx; urgency=medium
+
+  * update desktop file location
+
+ -- dolphin oracle <dolphinoracle@gmail.com>  Wed, 24 May 2017 22:59:45 -0400
+
 mx-switchuser (14.4.1) mx; urgency=medium
 
   * Translation changes to .desktop file
